@@ -1,12 +1,15 @@
 {
-  "name": "mapnik",
+  "name": "haizhi-mapnik",
   "description": "Tile rendering library for node",
   "url": "http://github.com/mapnik/node-mapnik",
   "homepage": "http://mapnik.org",
   "author": "Dane Springmeyer <dane@mapbox.com> (mapnik.org)",
-  "version": "4.4.0",
+  "version": "4.0.0",
   "mapnik_version": "3be9ce8fa",
   "main": "./lib/mapnik.js",
+  "publishConfig": {
+    "registry": "https://artifactory.haizhi.com/artifactory/api/npm/npm/"
+  },
   "binary": {
     "module_name": "mapnik",
     "module_path": "./lib/binding/",
